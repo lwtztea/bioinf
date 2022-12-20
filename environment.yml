@@ -11,6 +11,6 @@ dependencies:
   - bioconda::fastqc=0.11.9
   - bioconda::star=2.7.10b
   - bioconda::samtools=1.16.1
-  - bioconda::picard=2.27.5
+  - bioconda::picard-slim=2.27.4
   - bioconda::salmon=1.9.0
   - bioconda::bedtools=2.30.0
