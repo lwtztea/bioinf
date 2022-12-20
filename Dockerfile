@@ -7,8 +7,8 @@ LABEL authors="Natalia Luneva" \
 RUN conda update -n base -c defaults conda
 
 # Install the conda environment
-COPY bioinf.yml /
-RUN conda env create -f bioinf.yml && conda clean -a
+COPY environment.yml /
+RUN conda env create -f environment.yml && conda clean -a
 
 # Add conda installation dir to PATH (instead of doing 'conda activate')
 ENV PATH /opt/conda/envs/bioinf/bin:$PATH
