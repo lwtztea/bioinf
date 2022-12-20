@@ -1,4 +1,4 @@
-FROM continuumio/miniconda3:latest
+FROM continuumio/miniconda3:4.12.0
 LABEL authors="Natalia Luneva" \
       description="Docker image containing some bioinformatics tools" \
       version="0.1.0"
