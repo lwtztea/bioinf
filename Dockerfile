@@ -28,4 +28,4 @@ ENV PATH="/dependencies/endencies/root/envs/bioinf/bin:$PATH"
 # Remove conda and its cache from container
 RUN conda install anaconda-clean
 RUN anaconda-clean --yes
-RUN rm -rf /root/.cache/ /root/.conda /root/.anaconda_backup /dependencies/endencies
+RUN rm -rf /root/.cache/ /root/.conda /root/.anaconda_backup
